@@ -1,0 +1,495 @@
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+    width: 60%;
+}
+
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #1F1534;
+    opacity: 0.5;
+}
+
+.menu-link:hover {
+    opacity: 0.8;
+}
+
+.menu-link:active {
+    opacity: 1;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head {
+    margin-top: 75px;
+    display: flex;
+}
+
+.head-left {
+    padding-top: 4rem;
+    width: 40%;
+}
+
+.head-right {
+    width: 60%;
+}
+
+.head-left h1 {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.head-left p {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-one {
+    width: 200px;
+    height: 58.5px;
+    background: #458FF6;
+    border-radius: 55px;
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+.btn-one:hover {
+    background-color: white;
+    color: #458FF6;
+    border: 2px solid #458FF6;
+}
+
+.btn-one:active {
+    opacity: 0.7;
+}
+
+.text {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text h1 {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.text:before {
+    text-align: center;
+    content: "";
+    position: absolute;
+    width: 56px;
+    height: 2px;
+    top: 800px;
+    background: #000000;
+    border-radius: 5px;
+}
+
+.text p {
+    padding-top: 2rem;
+    width: 100%;
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+}
+
+.servis {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin-bottom: 2rem;
+    width: 350px;
+    background: #FFFFFF;
+    padding: 2rem;
+    box-sizing: border-box;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+.box:hover {
+    box-shadow: 0 12px 21px rgba(0, 0, 0, 0.1);
+}
+
+.box:active {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.box h1 {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.box p {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.bg {
+    position: absolute;
+    width: 1118.54px;
+    height: 967.94px;
+    left: -198px;
+    top: 685px;
+    z-index: -1;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-two {
+    width: 200px;
+    height: 58.5px;
+    background: #FFFFFF;
+    border-radius: 55px;
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    border: 2px solid #458FF6;
+    outline: none;
+}
+
+.btn-two:hover {
+    background-color: #458FF6;
+    color: #fff;
+    border: none;
+}
+
+.btn-two:active {
+    opacity: 0.7;
+}
+
+.leading {
+    margin: 6rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leading-left {
+    width: 60%;
+}
+
+.leading-right {
+    padding-top: 4rem;
+    width: 40%;
+}
+
+.leading-right h1 {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.leading-right p {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.leading hr {
+    width: 56px;
+    border: 1px solid black;
+    margin: 0;
+}
+
+.testimonials {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3rem;
+    width: 1000px;
+    height: 425px;
+    margin: 0 auto;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Mulish, sans-serif;
+}
+
+.inner {
+    width: 100%;
+}
+
+.inner hr {
+    width: 56px;
+    border: 1px solid white;
+}
+
+.inner-left {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.test-left {
+    width: 40%;
+}
+
+.test-right {
+    padding-top: 2rem;
+    text-align: left;
+    width: 60%;
+}
+
+.inner-right {
+    width: 50%;
+}
+
+.inner-right p {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.test-right p {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.indicator {
+    padding-top: 2rem;
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.indicator button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.indicator button:active {
+    opacity: 0.5;
+}
+
+.check {
+    width: 100%;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.check hr {
+    width: 56px;
+    border: 1px solid black;
+}
+
+.article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.art-img {
+    position: absolute;
+    width: 530px;
+    height: 557px;
+    left: 700px;
+    top: 3450px;
+    transform: rotate(-159.84deg);
+    z-index: -1;
+}
+
+.article-one {
+    width: 315px;
+    overflow: hidden;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-bottom: 6rem;
+    padding-bottom: 1rem;
+}
+
+.article-one h1 {
+    padding-left: 1rem;
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.article-one p {
+    padding-left: 1rem;
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.article-one a {
+    padding-left: 1rem;
+    text-decoration: none;
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+}
+
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 4rem;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: white;
+    display: flex;
+}
+
+.footer-left {
+    width: 40%;
+}
+
+.footer-left span {
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem 1rem;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    color: #458FF6;
+}
+
+.footer-left h1 {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.footer-left p {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.footer-left i {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer-right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu {
+    width: 30%;
+}
+
+.footer-menu h1 {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.footer-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    list-style: none;
+}
+
+.footer-menu li:hover {
+    opacity: 0.7;
+}
+
+.footer-menu li:active {
+    opacity: 0.5;
+}
